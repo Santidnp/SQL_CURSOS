@@ -1143,3 +1143,5 @@ show tables LIKE '%i';
 mysqldump -u root -p pruebaplatzi
 mysqldump -u root -p -d pruebaplatzi # Sin datos
 -u root -p -d pruebaplatzi > esquema.sql
+
+mysql -h "courses.csrrinzqubik.us-east-1.rds.amazonaws.com" -u student -p # Conexion a DataCamp
